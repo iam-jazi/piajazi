@@ -1,10 +1,10 @@
 const CACHE_NAME = "pwa-todo-cache-v1";
 const FILES_TO_CACHE = [
     "/",
-    "/pwa-todo/index.html",
-    "/pwa-todo/styles.css",
-    "/pwa-todo/script.js",
-    "/pwa-todo/manifest.json"
+    "index.html",
+    "styles.css",
+    "script.js",
+    "manifest.json"
 ];
 
 self.addEventListener("install", event => {
